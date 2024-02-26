@@ -74,7 +74,7 @@ header {
 }
 
 .barrier {
-  top: 98%;
+  top: 97.8%;
   left: 48%;
 }
 
@@ -129,6 +129,10 @@ header {
   background-color: #1b2338;
 }
 
+.launch {
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
+}
+
 .about {
   background-color: #8B8E98;
   height: 20px;
@@ -167,10 +171,10 @@ header {
 }
 
 .cont-frontend {
-  background-color: #536fca;
+  background-color: #2B53C2;
 }
 .cont-upsell {
-  background-color: #536fca;
+  background-color: #2B53C2;
 }
 
 .salespage-button {
@@ -196,20 +200,14 @@ header {
 }
 
 .module-header {
-  background-color: #FDAB0D;
+  /* border: 30px solid #FDAB0D; */
   border-radius: 50px;
 }
 
 .module-desc-container {
-  background-color: #FEE3AE;
-  border-top-right-radius: 35px;
-  border-bottom-right-radius: 35px;
+  background-color: white;
 }
 
-.module-tittle-container {
-  border-top-left-radius: 35px;
-  border-bottom-left-radius: 35px;
-}
 
 .module-tittle {
   color: #171E31;
@@ -220,7 +218,7 @@ header {
 }
 
 .module-size-container {
-  border: 2px solid #171E31;
+  border: 3px solid #171E31;
   border-style: dashed;
 }
 

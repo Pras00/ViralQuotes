@@ -5,23 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JV Page</title>
   <link rel="stylesheet" href="JV_Page.css">
+  <!-- <link href="./output.css" rel="stylesheet"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://kit.fontawesome.com/d8af8fd18e.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="overflow-x-hidden">
   <!-- Navigation -->
   <section class="fixed z-10 w-full">
     <nav class="flex justify-between items-center px-10 py-5 w-full">
-      <h1 class="title text-white font-bold text-xl flex items-center gap-2">ViralQuotes
+      <h1 class="title text-white font-bold text-xl flex items-center gap-2">Quotes Buddy 2.0
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-quote" viewBox="0 0 16 16">
           <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
           <path d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
         </svg>
       </h1>
-      <div class="nav-items text-white flex justify-center items-center gap-5 xl:flex lg:flex md:hidden sm:hidden">
+      <div class="nav-items text-white flex justify-center items-center gap-5 xl:flex lg:flex md:hidden sm:hidden min-[320px]:hidden">
         <a class="smooth-scroll contest-link flex items-center gap-1" href="#contest">
           Contest
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
@@ -41,7 +42,7 @@
           </svg>
         </a>
       </div>
-      <div class="container 2xl:hidden xl:hidden lg:hidden md:flex sm:flex text-right" onclick="myFunction(this)">
+      <div class="container 2xl:hidden xl:hidden lg:hidden md:flex sm:flex min-[320px]:flex text-right" onclick="myFunction(this)">
         <div class="bar1"></div>
         <div class="bar2"></div>
         <div class="bar3"></div>
@@ -74,11 +75,24 @@
     <div class="barrier absolute z-10">
       <img width="20%" src="./img/quotes.png" alt="quotes">
     </div>
-    <h1 class="header-tittle text-center text-white w-4/5 font-extrabold pt-20 pb-12 text-5xl leading-normal">Get <span class="header-span">Instant Commission</span> And Help Your Customers Create Reels/Feed And Easies Using ViralQuotes</h1>
+    <h1 class="header-tittle text-center text-white w-4/5 font-extrabold pt-20 pb-12 2xl:text-5xl xl:text-4xl md:text-4xl sm:text-3xl min-[320px]:text-2xl">Get <span class="header-span">Instant Commission</span> And Help Your Customers Create Reels/Feed And Easies Using Quotes Buddy 2.0</h1>
     <div class="w-1/2 mb-20">
       <img src="./img/new-product.png" alt="">
     </div>
-    <div class="date flex flex-wrap justify-center items-center gap-20 w-full">
+    <div class="launch flex flex-wrap justify-center items-center bg-gray-100 border-[#FDAB0D] border-[10px] rounded-[50px] py-4 mx-5">
+      <div class="flex flex-col justify-center items-center px-24">
+        <h1 class="text-red-500 font-extrabold text-3xl mb-3">Starts On</h1>
+        <h3 class="font-bold text-[22px]">10th March</h3>
+        <p class="font-medium">09:00 AM EST</p>
+      </div>
+      <div class="flex w-[2px] bg-gray-300 h-32 sm"></div>
+      <div class="flex flex-col justify-center items-center px-24">
+        <h1 class="text-red-500 font-extrabold text-3xl mb-3">Ends On</h1>
+        <h3 class="font-bold text-[22px]">15th March</h3>
+        <p class="font-medium">12:00 PM EST</p>
+      </div>
+    </div>
+    <!-- <div class="date flex flex-wrap justify-center items-center gap-20 w-full">
       <div class="start flex flex-col justify-center items-center w-1/4 min-w-72 rounded-3xl border-8 border-white">
         <h2 class="bg-black rounded-2xl mt-5 w-3/4 p-2 text-xl text-white text-center font-bold">Launch Start</h2>
         <h3 class="text-white font-bold mt-2 text-2xl">10</h3>
@@ -91,7 +105,7 @@
         <h3 class="text-white font-bold text-xl">March 2024</h3>
         <p class="mb-5 text-white bg-slate-800 rounded-2xl mt-5 w-fit p-2 text-center">@ 12 AM EST</p>
       </div>
-    </div>
+    </div> -->
     <div class="mt-20 w-4/5">
       <h3 class="text-center font-bold text-3xl text-white">Going Live - <span class="date-launch">Saturday, 10th March 2024</span>, 09:00 AM EST</h3>
       <p class="dont-miss-it text-center font-extrabold text-4xl mt-4">Don't Miss It!</p>
@@ -117,22 +131,22 @@
     </div>
     <!-- Result -->
     <div class=" result-container mb-10 cursor-pointer hover:scale-105 duration-200">
-      <a href="#affiliate" class="smooth-scroll result text-3xl font-extrabold">Get It NOW</a href="#affiliate">
+      <h1 class="result text-3xl font-extrabold">Get It NOW</h1>
     </div>
   </header>
   
   <!-- About -->
   <section class="about3 text-center flex flex-col justify-center items-center pb-20">
-    <h1 class="text-5xl font-extrabold pt-20 pb-10">About ViralQuotes</h1>
+    <h1 class="text-5xl font-extrabold pt-20 pb-10">About Quotes Buddy 2.0</h1>
     <p class="text-white w-4/5 mb-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, rerum quam natus labore et ratione error. Nam cumque possimus inventore recusandae quibusdam consectetur quia velit blanditiis tempore laudantium accusantium aut, perferendis aperiam temporibus molestias saepe maxime assumenda molestiae repudiandae explicabo illo? Aperiam dicta vitae harum recusandae quae vel sit, adipisci cum, itaque eum totam repellat rem alias laborum aliquid est veniam? Rem officia ea illo velit exercitationem dignissimos saepe. Deleniti ea ab autem adipisci, ullam a tempora saepe in culpa. Quam inventore harum quisquam at vitae modi earum rem saepe obcaecati, eveniet facere nihil iusto eaque adipisci cupiditate esse. Quas, fuga! Aperiam nihil eveniet illum id nesciunt sapiente iusto non fugiat quis, necessitatibus reiciendis quas, corporis, itaque ipsam officia? Qui repellendus molestias quas fugit.</p>
     <div class="image-viralquotes w-1/2 bg-slate-600">
       <img src="#" alt="ViralQuotes">
     </div>
     <div class="produk flex flex-wrap justify-center items-center gap-20 mt-10">
       <div class="front-end rounded-3xl flex flex-col justify-center items-center">
-        <div class="cont-frontend rounded-tr-3xl rounded-tl-3xl py-3 px-10">
+        <div class="cont-frontend rounded-tr-3xl rounded-tl-3xl py-3 px-10 text-white">
           <h3 class="font-bold text-2xl">Front End</h3>
-          <p class="font-semibold">There are 15 Modules at the Front End sales page:</p>
+          <p class="font-medium">There are 15 Modules at the Front End sales page:</p>
         </div>
         <div class="flex flex-col justify-center items-center gap-20 mx-10 my-5">
           <div class="text-white text-left">
@@ -206,7 +220,7 @@
         </a>
       </div>
       <div class="upsell rounded-3xl flex flex-col justify-center items-center md::w-4/5">
-        <div class="cont-upsell rounded-tr-3xl rounded-tl-3xl py-3 px-10 w-full">
+        <div class="cont-upsell rounded-tr-3xl rounded-tl-3xl py-3 px-10 w-full text-white">
           <h3 class="font-bold text-2xl">Upsell</h3>
           <p class="font-semibold">There are 30 Modules at the Upsell sales page:</p>
         </div>
@@ -436,13 +450,36 @@
   </section>
 
   <!-- Module 1 -->
-  <section class="module flex flex-col justify-center items-center py-16">
+  <section class="module flex flex-col justify-center items-center py-20">
     <!-- Module Header -->
-    <div class="module-header flex flex-wrap justify-center items-center w-4/5 px-5 py-5">
-      <div class="module-tittle-container bg-white flex justify-center items-center h-52 w-2/5">
+    <div class="module-header flex flex-wrap justify-center items-center bg-[#2B53C2] p-5 mx-5">
+      <div class="flex justify-center items-center pl-5 pr-10 py-10 2xl:w-auto xl:w-auto lg:w-auto md:w-full sm:w-full min-[320px]:w-full">
+        <h1 class="module-tittle text-white font-extrabold text-4xl">Romance Quotes</h1>
+      </div>
+      <div class="module-desc-container flex flex-col gap-2 pl-7 pr-[72px] py-10 text-left rounded-[35px]">
+        <div class="flex gap-2 items-center">
+          <i class="module-desc fa-solid fa-pen-to-square"></i>
+          <p class="font-medium">Fully Editable <span class="font-bold">CANVA Templates</span></p>
+        </div>
+        <div class="flex gap-2 items-center">
+          <i class="module-desc fa-solid fa-chart-simple"></i>
+          <p class="font-medium"><span class="font-bold">Static & Animated</span> Quote Design (Ready To Upload)</p>
+        </div>
+        <div class="flex gap-2 items-center">
+          <i class="module-desc fa-solid fa-paste"></i>
+          <p class="font-medium"><span class="font-bold">4:3 Size Dimension</span>​ (IG Feed, Facebook, Twitter, Linkedin)</p>
+        </div>
+        <div class="flex gap-2 items-center">
+          <i class="module-desc fa-solid fa-copy"></i>
+          <p class="font-medium"><span class="font-bold">9:16 Size Dimension</span>​ (Reels, Story, TikTok, YT Shorts, etc)</p>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="module-header flex flex-wrap justify-center items-center w-fit mx-5">
+      <div class="module-tittle-container bg-white flex justify-center items-center h-52 2xl:w-96 2xl:rounded-tl-[20px] 2xl:rounded-bl-[20px] 2xl:rounded-tr-[0px] xl:w-96 xl:rounded-tl-[20px] xl:rounded-bl-[20px] xl:rounded-tr-[0px] lg:w-96 lg:rounded-tl-[20px] lg:rounded-bl-[20px] lg:rounded-tr-[0px] md:w-full md:rounded-tr-[20px] md:rounded-bl-[0px] sm:w-full sm:rounded-tr-[20px] sm:rounded-bl-[0px] min-[320px]:w-full min-[320px]:rounded-tr-[20px] min-[320px]:rounded-bl-[0px]">
         <h1 class="module-tittle font-bold text-4xl">Romance Quotes</h1>
       </div>
-      <div class="module-desc-container flex flex-col justify-center items-start pl-8 h-52 w-3/5">
+      <div class="module-desc-container flex flex-col justify-center items-start pl-8 h-52 2xl:w-[40rem] 2xl:rounded-tr-[20px] 2xl:rounded-br-[20px] 2xl:rounded-bl-[0px] xl:w-[40rem] xl:rounded-tr-[20px] xl:rounded-br-[20px] xl:rounded-bl-[0px] lg:w-[40rem] lg:rounded-tr-[20px] lg:rounded-br-[20px] lg:rounded-bl-[0px] md:w-full md:rounded-bl-[20px] md:rounded-tr-[0px] sm:w-full sm:rounded-bl-[20px] sm:rounded-tr-[0px] min-[320px]:rounded-bl-[20px] min-[320px]:rounded-tr-[0px]">
         <div class="flex flex-col gap-2">
           <div class="flex gap-2 items-center">
             <i class="module-desc fa-solid fa-pen-to-square"></i>
@@ -462,13 +499,21 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- 4:3 Card -->
     <div class="flex flex-col justify-center items-center w-10/12">
-      <div class="module-size-container px-5 py-2 rounded-3xl mt-12 mb-7">
-        <h3 class="font-bold">4:3 Size Dimension</h3>
+      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mt-20 mb-7">
+        <h3 class="font-bold text-xl py-1 px-7">4:3 Size Dimension</h3>
       </div>
-      <div class="flex flex-col justify-center items-center gap-2">
+      <div class="flex flex-wrap justify-center items-center px-10">
+        <div class="w-1/2 min-w-[30rem]">
+          <img src="./img/square.png" alt="square">
+        </div>
+        <div class="w-1/2 min-w-[30rem]">
+          <img src="./img/square.png" alt="square">
+        </div>
+      </div>
+      <!-- <div class="flex flex-col justify-center items-center gap-2">
         <div class="flex flex-wrap justify-center items-center gap-2">
           <div class="text-center hover:scale-105 duration-200">
             <svg class="rounded-2xl" width="130" height="130" class="image-module mb-3">
@@ -553,14 +598,22 @@
             </svg>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <!-- 9:16 Card -->
     <div class="flex flex-col justify-center items-center w-10/12">
-      <div class="module-size-container px-5 py-2 rounded-3xl mt-12 mb-7">
-        <h3 class="font-bold">4:3 Size Dimension</h3>
+      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mt-12 mb-7">
+        <h3 class="font-bold text-xl py-1 px-7">9:16 Size Dimension</h3>
       </div>
-      <div class="flex flex-col justify-center items-center gap-2">
+      <div class="flex flex-wrap justify-center items-center px-10">
+        <div class="w-1/2 min-w-[30rem]">
+          <img src="./img/potrait.png" alt="square">
+        </div>
+        <div class="w-1/2 min-w-[30rem]">
+          <img src="./img/potrait.png" alt="square">
+        </div>
+      </div>
+      <!-- <div class="flex flex-col justify-center items-center gap-2">
         <div class="flex flex-wrap justify-center items-center gap-2">
           <div class="text-center hover:scale-105 duration-200">
             <svg class="rounded-2xl" width="130" height="231" class="image-module mb-3">
@@ -645,7 +698,7 @@
             </svg>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <!-- Animation -->
     <div class="flex flex-col justify-center items-center mt-20">
@@ -659,7 +712,7 @@
   </section>
 
   <!-- Affiliate Contest -->
-  <section class="affiliate-contest flex flex-col justify-center items-center bg-gray-200 py-10" id="contest">
+  <section class="affiliate-contest flex flex-col justify-center items-center bg-gray-200 pb-16 pt-20" id="contest">
     <h1 class="text-slate-800 font-extrabold text-4xl">Affiliate Contest</h1>
     <h3 class="text-slate-800 font-medium text-center px-32 py-5">By promoting our product, you are not only get instant commission but also you can win extra cash from contest prize! The Affiliate Contest is 5 days, starting from <b>10 March 2024</b> at 9 am est and end <b>14 March 2024</b> at 12 am est.</h3>
     <img class="w-4/5" src="./img/Piala.png" alt="Prize">
@@ -746,7 +799,7 @@
   </section>
 
   <!-- Affiliate -->
-  <section class="affiliate3 py-16" id="affiliate">
+  <section class="affiliate3 pb-16 pt-20" id="affiliate">
     <h1 class="affiliate-link-tittle font-extrabold text-4xl text-center">Affiliate Link</h1>
     <h3 class="text-white text-center font-medium mt-2">Get Your Affiliate Link Now</h3>
     <div class="flex flex-wrap justify-center items-center w-full mt-10 gap-20">

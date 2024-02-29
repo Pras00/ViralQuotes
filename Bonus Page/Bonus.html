@@ -15,7 +15,7 @@
   <!-- Header -->
   <section class="header py-16 flex flex-col justify-center items-center">
     <div class="text-center w-4/5">
-      <h3 class="text-white text-4xl font-semibold">Bonuses For <span class="underline font-bold">Name Subscriber</span></h3>
+      <h3 class="text-white text-4xl font-semibold">Bonuses For <span id="subscriberName" class="underline font-bold">Name Subscriber</span></h3>
       <h1 class="text-white text-5xl font-extrabold py-5">Elevate Your Content with <span class="text-[#FDAB0D]">QuotesBuddy 2.0</span>! Craft Trending Feeds and Reels Easily With Many Themes of Quotes.</h1>
       <p class="text-[#FDAB0D] text-xl font-semibold">Dominate Instagram Reel, TikTok, YouTube Shorts and more...!</p>
     </div>
@@ -32,7 +32,7 @@
   <!-- Module -->
   <section class="module flex flex-col justify-center items-center py-20 bg-[url('./img/bg-abstrak.png')] bg-cover bg-no-repeat bg-fixed">
     <!-- Module Header -->
-    <div class="module-header flex flex-wrap justify-center items-center bg-[#2B53C2] p-5 mx-5 rounded-[50px]">
+    <div class="module-header flex flex-wrap justify-center items-center bg-[url('./img/bg-header-module.jpg')] bg-cover bg-center p-5 mx-5 rounded-[50px]">
       <div class="flex justify-center items-center pl-5 pr-10 py-10 2xl:w-auto xl:w-auto lg:w-auto md:w-full sm:w-full min-[320px]:w-full">
         <h1 class="module-tittle text-white font-extrabold text-4xl">Romance Quotes</h1>
       </div>
@@ -56,41 +56,53 @@
       </div>
     </div>
     <!-- 4:3 Card -->
-    <div class="flex flex-col justify-center items-center w-10/12">
+    <div class="flex flex-col justify-center items-center">
       <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mt-20 mb-7">
         <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">4:3 Size Dimension</h3>
       </div>
-      <div class="flex flex-wrap justify-center items-center px-10">
-        <div class="w-1/2 min-w-[30rem]">
-          <img src="./img/square.png" alt="square">
+      <div class="flex flex-wrap justify-center items-center px-10 gap-7">
+        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
+          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 1</h3>
+          <div class="">
+            <img src="./img/square.png" alt="square">
+          </div>
         </div>
-        <div class="w-1/2 min-w-[30rem]">
-          <img src="./img/square.png" alt="square">
+        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
+          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 2</h3>
+          <div class="">
+            <img src="./img/square2.png" alt="square">
+          </div>
         </div>
       </div>
     </div>
     <!-- 9:16 Card -->
-    <div class="flex flex-col justify-center items-center w-10/12">
+    <div class="flex flex-col justify-center items-center">
       <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mt-12 mb-7">
         <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">9:16 Size Dimension</h3>
       </div>
-      <div class="flex flex-wrap justify-center items-center px-10">
-        <div class="w-1/2 min-w-[30rem]">
-          <img src="./img/potrait.png" alt="square">
+      <div class="flex flex-wrap justify-center items-center px-10 gap-7">
+        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
+          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 1</h3>
+          <div class="">
+            <img src="./img/potrait.png" alt="potrait">
+          </div>
         </div>
-        <div class="w-1/2 min-w-[30rem]">
-          <img src="./img/potrait.png" alt="square">
+        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
+          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 2</h3>
+          <div class="">
+            <img src="./img/potrait2.png" alt="potrait">
+          </div>
         </div>
       </div>
     </div>
     <!-- Animation -->
-    <div class="flex flex-col justify-center items-center mt-20">
+    <div class="flex flex-col justify-center items-center mt-20 w-full">
       <h3 class="animation-tittle1 font-bold text-3xl mb-1 text-[#171E31]">All Those Templates Also Available In</h3>
       <h4 class="animation-tittle2 font-bold text-3xl mb-4 text-[#FDAB0D]">Animated Version</h4>
       <p class="animation-tittle3 font-medium text-xl mb-5 text-[#171E31]">Watch the animation demo below</p>
-      <svg class="rounded-2xl" width="800" height="450" class="image-module mb-5 mt-3">
-        <rect width="100%" height="100%" fill="#171E31" />
-    </svg>
+      <div class="flex justify-center">
+        <iframe src="https://www.youtube.com/embed/_LFCnG5UqCk?si=vrUkC0fqCtpCRNDr" class="w-[55vw] h-[30vw] rounded-3xl" allowfullscreen></iframe>
+      </div>
     </div>
   </section>
 
@@ -103,6 +115,62 @@
       <p class="text-white text-lg font-semibold mb-5">Grab <span class="font-bold underline">QuotesBuddy 2.0</span> And Your <span class="font-bold underline">Bonuses</span> NOW!</p>
       <button class="text-[#FDAB0D] text-xl py-2 px-5 rounded-3xl font-extrabold bg-gradient-to-b from-white via-gray-200 to-gray-300 hover:scale-105 duration-200">Get It Now</button>
     </div>
+    <!-- Card -->
+    <div class="container">
+      <div class="card__container">
+         <article class="card__article">
+            <img src="./img/ig_feed_template.png" alt="image" class="card__img">
+
+            <div class="card__data">
+               <span class="card__description">Vancouver Mountains, Canada</span>
+               <h2 class="card__title">IG Feed Templates</h2>
+               <a href="#" class="card__button">Read More</a>
+            </div>
+         </article>
+
+         <article class="card__article">
+            <img src="./img/ig_story_template.png" alt="image" class="card__img">
+
+            <div class="card__data">
+               <span class="card__description">Poon Hill, Nepal</span>
+               <h2 class="card__title">IG Story Templates</h2>
+               <a href="#" class="card__button">Read More</a>
+            </div>
+         </article>
+
+         <article class="card__article">
+            <img src="./img/poster_template.png" alt="image" class="card__img">
+
+            <div class="card__data">
+               <span class="card__description">Bojcin Forest, Serbia</span>
+               <h2 class="card__title">Poster Templates</h2>
+               <a href="#" class="card__button">Read More</a>
+            </div>
+         </article>
+
+         <article class="card__article">
+            <img src="./img/iphone_mockup.png" alt="image" class="card__img">
+
+            <div class="card__data">
+               <span class="card__description">Bojcin Forest, Serbia</span>
+               <h2 class="card__title">Poster Templates</h2>
+               <a href="#" class="card__button">Read More</a>
+            </div>
+         </article>
+
+         <article class="card__article">
+            <img src="./img/poster_template.png" alt="image" class="card__img">
+
+            <div class="card__data">
+               <span class="card__description">Bojcin Forest, Serbia</span>
+               <h2 class="card__title">Poster Templates</h2>
+               <a href="#" class="card__button">Read More</a>
+            </div>
+         </article>
+      </div>
+    </div>
   </section>
+
+
 </body>
 </html>

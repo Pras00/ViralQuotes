@@ -14,13 +14,13 @@
 <body class="overflow-x-hidden">
   <!-- Navigation -->
   <section class="fixed z-10 w-full">
-    <nav class="flex justify-between items-center px-10 py-5 w-full">
-      <h1 class="title text-white font-bold text-xl flex items-center gap-2">QuotesBuddy 2.0
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-left-quote" viewBox="0 0 16 16">
-          <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H4.414A2 2 0 0 0 3 11.586l-2 2V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12.793a.5.5 0 0 0 .854.353l2.853-2.853A1 1 0 0 1 4.414 12H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
-          <path d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
-        </svg>
-      </h1>
+    <nav class="flex justify-between items-center px-10 py-5 w-full bg-[#171E31]">
+      <div class="flex justify-start items-center gap-2">
+        <h1 class="title text-white font-bold text-xl flex items-center gap-2">Quotes Buddy 2.0</h1>
+        <div class="w-[3%]">
+          <img src="./img/quote.png" alt="quote">
+        </div>
+      </div>
       <div class="nav-items text-white flex justify-center items-center gap-5 xl:flex lg:flex md:hidden sm:hidden min-[320px]:hidden">
         <a class="smooth-scroll contest-link flex items-center gap-1" href="#contest">
           Contest
@@ -71,14 +71,14 @@
 
   <!-- Header -->
   <header class="relative flex flex-col items-center justify-center pt-12 pb-20">
-    <div class="barrier absolute z-10">
+    <div class="barrier absolute z-5">
       <img width="20%" src="./img/quotes.png" alt="quotes">
     </div>
-    <h1 class="header-tittle text-center text-white w-4/5 font-extrabold pt-28 pb-12 2xl:text-5xl 2xl:leading-[4rem] xl:text-4xl xl:leading-[4rem] md:text-4xl md:leading-[3rem] sm:text-3xl sm:leading-[3rem] min-[320px]:text-2xl min-[320px]:leading-[2rem]">Get <span class="header-span">Instant Commission</span> And Help Your Customers Create Reels/Feed And Easies Using QuotesBuddy 2.0</h1>
+    <h1 class="header-tittle text-center text-white w-4/5 font-extrabold pt-28 pb-12 2xl:text-5xl 2xl:leading-[4rem] xl:text-4xl xl:leading-[4rem] md:text-4xl md:leading-[3rem] sm:text-3xl sm:leading-[3rem] min-[320px]:text-2xl min-[320px]:leading-[2rem]">Get <span class="header-span text-[#FDAB0D]">Instant Commission</span> And Help Your Customers Create Reels/Feed And Easies Using QuotesBuddy 2.0</h1>
     <div class="w-1/2 mb-20">
       <img src="./img/new-product.png" alt="">
     </div>
-    <div class="launch flex flex-wrap justify-center items-center bg-gray-100 border-[#FDAB0D] border-[10px] rounded-[50px] py-4 mx-5 min-[650px]:gap-5 min-[320px]:gap-5">
+    <div class="launch flex flex-wrap justify-center items-center bg-gray-100 border-[#FDAB0D] border-[10px] rounded-[50px] py-4 mx-5 min-[650px]:gap-5 min-[320px]:gap-5 shadow-[10px_10px_20px_rgba(0,0,0,0.7)]">
       <div class="flex flex-col justify-center items-center px-24">
         <h1 class="text-red-500 font-extrabold text-3xl mb-3">Starts On</h1>
         <h3 class="font-bold text-[22px]">10th March</h3>
@@ -93,11 +93,11 @@
     </div>
     <div class="mt-20 w-4/5">
       <h3 class="text-center font-bold text-3xl text-white">Going Live - <span class="date-launch">Saturday, 10th March 2024</span>, 09:00 AM EST</h3>
-      <p class="dont-miss-it text-center font-extrabold text-4xl mt-4">Don't Miss It!</p>
+      <p class="dont-miss-it text-[#FDAB0D] text-center font-extrabold text-4xl mt-4">Don't Miss It!</p>
     </div>
     <!-- Countdown -->
-    <div class="countdown flex justify-center items-center mt-5 mb-12">
-      <div class="first-item count-item flex flex-col items-center justify-center bg-gradient-to-b from-white via-gray-200 to-gray-300">
+    <div class="countdown flex justify-center items-center mt-6 mb-12 shadow-[10px_10px_20px_rgba(0,0,0,0.7)] gap-[1px]">
+      <div class="first-item count-item flex flex-col items-center justify-center bg-gradient-to-b from-white via-gray-200 to-gray-300 rounded-tl-[20px] rounded-bl-[20px]">
         <div class="days font-extrabold text-4xl"></div>
         <div class="font-bold">Days</div>
       </div>
@@ -109,27 +109,27 @@
         <div class="minutes font-extrabold text-4xl"></div>
         <div class="font-bold">Minutes</div>
       </div>
-      <div class="last-item count-item flex flex-col items-center justify-center bg-gradient-to-b from-white via-gray-200 to-gray-300">
+      <div class="last-item count-item flex flex-col items-center justify-center bg-gradient-to-b from-white via-gray-200 to-gray-300 rounded-tr-[20px] rounded-br-[20px]">
         <div class="seconds font-extrabold text-4xl"></div>
         <div class="font-bold">Seconds</div>
       </div>
     </div>
     <!-- Result -->
     <div class=" result-container mb-10 cursor-pointer hover:scale-105 duration-200">
-      <h1 class="result text-3xl font-extrabold">Get It NOW</h1>
+      <h1 class="result text-3xl font-extrabold hover:bg-[#1b2338]">Get It NOW</h1>
     </div>
   </header>
   
   <!-- About -->
-  <section class="about3 text-center flex flex-col justify-center items-center pb-20">
-    <h1 class="text-5xl font-extrabold pt-20 pb-10">About Quotes Buddy 2.0</h1>
+  <section class="about3 text-center flex flex-col justify-center items-center pb-20 bg-[url('./img/bg-dark2.png')] bg-cover bg-center bg-fixed">
+    <h1 class="text-5xl font-extrabold pt-20 pb-10 text-[#FDAB0D]">About Quotes Buddy 2.0</h1>
     <p class="text-white w-4/5 mb-10">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo, rerum quam natus labore et ratione error. Nam cumque possimus inventore recusandae quibusdam consectetur quia velit blanditiis tempore laudantium accusantium aut, perferendis aperiam temporibus molestias saepe maxime assumenda molestiae repudiandae explicabo illo? Aperiam dicta vitae harum recusandae quae vel sit, adipisci cum, itaque eum totam repellat rem alias laborum aliquid est veniam? Rem officia ea illo velit exercitationem dignissimos saepe. Deleniti ea ab autem adipisci, ullam a tempora saepe in culpa. Quam inventore harum quisquam at vitae modi earum rem saepe obcaecati, eveniet facere nihil iusto eaque adipisci cupiditate esse. Quas, fuga! Aperiam nihil eveniet illum id nesciunt sapiente iusto non fugiat quis, necessitatibus reiciendis quas, corporis, itaque ipsam officia? Qui repellendus molestias quas fugit.</p>
     <div class="image-viralquotes w-1/2 bg-slate-600">
       <img src="#" alt="ViralQuotes">
     </div>
     <div class="produk flex flex-wrap justify-center items-center gap-20 mt-10">
-      <div class="front-end rounded-3xl flex flex-col justify-center items-center">
-        <div class="cont-frontend rounded-tr-3xl rounded-tl-3xl py-3 px-10 text-white">
+      <div class="front-end border-[3px] border-white rounded-3xl flex flex-col justify-center items-center">
+        <div class="cont-frontend bg-[#2B53C2] rounded-tr-3xl rounded-tl-3xl py-3 px-10 text-white">
           <h3 class="font-bold text-2xl">Front End</h3>
           <p class="font-medium">There are 15 Modules at the Front End sales page:</p>
         </div>
@@ -197,15 +197,15 @@
             </div>
           </div>
         </div>
-        <a href="#" class="salespage-button text-gray-100 font-semibold flex items-center gap-1 my-5 px-5 py-2 rounded-2xl">
+        <a href="#" class="salespage-button bg-[#FDAB0D] text-gray-100 font-semibold flex items-center gap-1 my-5 px-5 py-2 rounded-2xl">
           Preview of Sales Page
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
             <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
           </svg>
         </a>
       </div>
-      <div class="upsell rounded-3xl flex flex-col justify-center items-center md::w-4/5">
-        <div class="cont-upsell rounded-tr-3xl rounded-tl-3xl py-3 px-10 w-full text-white">
+      <div class="upsell border-[3px] border-white rounded-3xl flex flex-col justify-center items-center md::w-4/5">
+        <div class="cont-upsell bg-[#2B53C2] rounded-tr-3xl rounded-tl-3xl py-3 px-10 w-full text-white">
           <h3 class="font-bold text-2xl">Upsell</h3>
           <p class="font-semibold">There are 30 Modules at the Upsell sales page:</p>
         </div>
@@ -337,7 +337,7 @@
             </div>
           </div>
         </div>
-        <a href="#" class="salespage-button text-gray-100 font-semibold flex items-center gap-1 my-5 px-5 py-2 rounded-2xl">
+        <a href="#" class="salespage-button bg-[#FDAB0D] text-gray-100 font-semibold flex items-center gap-1 my-5 px-5 py-2 rounded-2xl">
           Preview of Sales Page
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
             <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
@@ -353,7 +353,7 @@
       <div class="gap-4 flex justify-center items-center">
         <!-- Left -->
         <div>
-          <div class="flex items-center gap-5 specific-explain px-4 py-2 rounded-2xl mb-3 text-left">
+          <div class="flex items-center gap-5 specific-explain border-[3px] border-white px-4 py-2 rounded-2xl mb-3 text-left">
             <div class="text-red-500">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
                 <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5"/>
@@ -365,7 +365,7 @@
               <h3 class="text-white">for their products or services.</h3>
             </div>
           </div>
-          <div class="flex items-center gap-5 specific-explain px-4 py-2 rounded-2xl mb-3 text-left">
+          <div class="flex items-center gap-5 specific-explain border-[3px] border-white px-4 py-2 rounded-2xl mb-3 text-left">
             <div class="text-red-500">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-collection-play-fill" viewBox="0 0 16 16">
                 <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6zm6.258-6.437a.5.5 0 0 1 .507.013l4 2.5a.5.5 0 0 1 0 .848l-4 2.5A.5.5 0 0 1 6 12V7a.5.5 0 0 1 .258-.437"/>
@@ -376,7 +376,7 @@
               <h3 class="text-white">and informative videos for their followers.</h3>
             </div>
           </div>
-          <div class="flex items-center gap-5 specific-explain px-4 py-2 rounded-2xl mb-3 text-left">
+          <div class="flex items-center gap-5 specific-explain border-[3px] border-white px-4 py-2 rounded-2xl mb-3 text-left">
             <div class="text-red-500">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-workspace" viewBox="0 0 16 16">
                 <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5"/>
@@ -392,7 +392,7 @@
         <!-- Right -->
         <div>
           <div>
-            <div class="flex items-center gap-5 specific-explain px-4 py-2 rounded-2xl mb-3 text-left">
+            <div class="flex items-center gap-5 specific-explain border-[3px] border-white px-4 py-2 rounded-2xl mb-3 text-left">
               <div class="text-red-500">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-backpack4-fill" viewBox="0 0 16 16">
                   <path d="M8 0a2 2 0 0 0-2 2H3.5a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h4v.5a.5.5 0 0 0 1 0V7h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H10a2 2 0 0 0-2-2m1 2a1 1 0 0 0-2 0zm-4 9v2h6v-2h-1v.5a.5.5 0 0 1-1 0V11z"/>
@@ -404,7 +404,7 @@
                 <h3 class="text-white">their students, such as video lectures, tutorials, and demonstrations.</h3>
               </div>
             </div>
-            <div class="flex items-center gap-5 specific-explain px-4 py-2 rounded-2xl mb-3 text-left">
+            <div class="flex items-center gap-5 specific-explain border-[3px] border-white px-4 py-2 rounded-2xl mb-3 text-left">
               <div class="text-red-500">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-building" viewBox="0 0 16 16">
                   <path d="M4 2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zM4 5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM7.5 5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zM4.5 8a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5zm2.5.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5z"/>
@@ -416,7 +416,7 @@
                 <h3 class="text-white">fundraising and awareness videos for their cause.</h3>
               </div>
             </div>
-            <div class="flex items-center gap-5 specific-explain px-4 py-2 rounded-2xl mb-3 text-left">
+            <div class="flex items-center gap-5 specific-explain border-[3px] border-white px-4 py-2 rounded-2xl mb-3 text-left">
               <div class="text-red-500">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-check-fill" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M15.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L12.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
@@ -435,11 +435,11 @@
   </section>
 
   <!-- Module -->
-  <section class="module flex flex-col justify-center items-center py-20 bg-[url('./img/bg-abstrak.png')] bg-cover bg-no-repeat bg-fixed">
+  <section class="module flex flex-col justify-center items-center py-20 bg-[url('./img/bg-abstrak.png')] bg-cover bg-no-repeat bg-center bg-fixed">
     <!-- Module Header -->
     <div class="module-header flex flex-wrap justify-center items-center bg-[url('./img/bg-header-module.jpg')] bg-cover bg-center p-5 mx-5 rounded-[50px]">
       <div class="flex justify-center items-center pl-5 pr-10 py-10 2xl:w-auto xl:w-auto lg:w-auto md:w-full sm:w-full min-[320px]:w-full">
-        <h1 class="module-tittle text-white font-extrabold text-4xl">Romance Quotes</h1>
+        <h1 class="module-tittle font-extrabold text-4xl text-white">Romance Quotes</h1>
       </div>
       <div class="module-desc-container flex flex-col gap-2 pl-7 pr-[72px] py-10 text-left rounded-[35px] bg-white">
         <div class="flex gap-2 items-center">
@@ -512,13 +512,13 @@
   </section>
 
   <!-- Affiliate Contest -->
-  <section class="affiliate-contest flex flex-col justify-center items-center bg-gray-200 pb-16 pt-20" id="contest">
+  <section class="affiliate-contest flex flex-col justify-center items-center bg-gray-200 pb-16 pt-20 bg-[url('./img/bg-abstrak2.png')] bg-no-repeat bg-center bg-cover" id="contest">
     <h1 class="text-slate-800 font-extrabold text-4xl">Affiliate Contest</h1>
     <h3 class="text-slate-800 font-medium text-center px-32 py-5">By promoting our product, you are not only get instant commission but also you can win extra cash from contest prize! The Affiliate Contest is 5 days, starting from <b>10 March 2024</b> at 9 am est and end <b>14 March 2024</b> at 12 am est.</h3>
     <img class="w-4/5" src="./img/Piala.png" alt="Prize">
-    <div class="affiliate-desc py-10">
+    <div class="affiliate-desc px-[20%] py-10">
       <p>Top 2 Prize Positions have minimum requirements. Slot 3, 4 and 5 have no minimum number of sales but are commission based.</p>
-      <div class="position py-5 pl-10 text-white rounded-2xl my-5">
+      <div class="position bg-[#171E31] border-[3px] border-[#FDAB0D] py-5 pl-10 text-white rounded-2xl my-5">
         <div class="flex items-center gap-2 text-white">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
             <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
@@ -543,31 +543,31 @@
     </div>
   </section>
 
-  <section class="sales-funnel flex flex-col justify-center items-center py-16">
-    <h1 class="sales-funnel-tittle font-extrabold text-4xl">Sales Funnel</h1>
+  <section class="sales-funnel bg-[url('./img/bg-dark.png')] bg-no-repeat bg-cover flex flex-col justify-center items-center py-16">
+    <h1 class="sales-funnel-tittle text-[#FDAB0D] font-extrabold text-4xl">Sales Funnel</h1>
     <h3 class="text-white w-4/5 text-center py-3">Our sales funnel will generate more profit for you, enjoy multiple commission from our high converting sales funnel.</h3>
     <div class="flex flex-wrap justify-center items-center gap-5 mt-5">
-      <div class="sales-funnel-item w-40 min-w-36 rounded-2xl p-5">
+      <div class="sales-funnel-item border-[3px] border-white w-40 min-w-36 rounded-2xl p-5">
         <p class="bg-white text-center rounded-lg font-semibold text-sm">Front end</p>
-        <p class="sales-funnel-prize text-center font-extrabold text-3xl py-5">$19</p>
+        <p class="sales-funnel-prize text-[#FDAB0D] text-center font-extrabold text-3xl py-5">$19</p>
         <p class="text-white text-center font-semibold">50%</p>
         <p class="text-white text-center font-semibold">Commission</p>
       </div>
-      <div class="sales-funnel-item w-40 min-w-36 rounded-2xl p-5">
+      <div class="sales-funnel-item border-[3px] border-white w-40 min-w-36 rounded-2xl p-5">
         <p class="bg-white text-center rounded-lg font-semibold text-sm">Upsell</p>
-        <p class="sales-funnel-prize text-center font-extrabold text-3xl py-5">$37</p>
+        <p class="sales-funnel-prize text-[#FDAB0D] text-center font-extrabold text-3xl py-5">$37</p>
         <p class="text-white text-center font-semibold">50%</p>
         <p class="text-white text-center font-semibold">Commission</p>
       </div>
-      <div class="sales-funnel-item w-40 min-w-36 rounded-2xl p-5">
+      <div class="sales-funnel-item border-[3px] border-white w-40 min-w-36 rounded-2xl p-5">
         <p class="bg-white text-center rounded-lg font-semibold text-sm">Downsell</p>
-        <p class="sales-funnel-prize text-center font-extrabold text-3xl py-5">$27</p>
+        <p class="sales-funnel-prize text-[#FDAB0D] text-center font-extrabold text-3xl py-5">$27</p>
         <p class="text-white text-center font-semibold">50%</p>
         <p class="text-white text-center font-semibold">Commission</p>
       </div>
-      <div class="sales-funnel-item w-40 min-w-36 rounded-2xl p-5">
+      <div class="sales-funnel-item border-[3px] border-white w-40 min-w-36 rounded-2xl p-5">
         <p class="bg-white text-center rounded-lg font-semibold text-sm">Upsell 2</p>
-        <p class="sales-funnel-prize text-center font-extrabold text-3xl py-5">$49</p>
+        <p class="sales-funnel-prize text-[#FDAB0D] text-center font-extrabold text-3xl py-5">$49</p>
         <p class="text-white text-center font-semibold">50%</p>
         <p class="text-white text-center font-semibold">Commission</p>
       </div>
@@ -575,26 +575,26 @@
   </section>
 
   <!-- Affiliate -->
-  <section class="affiliate3 pb-16 pt-20" id="affiliate">
-    <h1 class="affiliate-link-tittle font-extrabold text-4xl text-center">Affiliate Link</h1>
+  <section class="affiliate3 bg-[url('./img/bg-dark2.png')] bg-cover bg-center bg-fixed bg-no-repeat pb-16 pt-20" id="affiliate">
+    <h1 class="affiliate-link-tittle text-[#FDAB0D] font-extrabold text-4xl text-center">Affiliate Link</h1>
     <h3 class="text-white text-center font-medium mt-2">Get Your Affiliate Link Now</h3>
     <div class="flex flex-wrap justify-center items-center w-full mt-10 gap-20">
-      <div class="form-container w-1/3 bg-white p-10 rounded-2xl drop-shadow-2xl">
+      <div class="form-container w-1/3 min-w-[465px] border-[4px] border-[#FDAB0D] bg-gradient-to-b from-gray-50 via-gray-100 to-gray-200 p-10 rounded-2xl drop-shadow-2xl">
         <p class="text-3xl font-bold text-center pb-5">Submit</p>
         <p class="text-gray-500 text-center">Submit your email to get update on launch and update information</p>
         <form class="mt-7" action="">
           <p class="font-semibold">Name</p>
-          <input class="form-input ml-2 px-3 py-1 rounded-md my-1 w-full" type="text" name="name" placeholder="Your name">
+          <input class="form-input border-[1px] border-[#171E31] ml-2 px-3 py-1 rounded-md my-1 w-full" type="text" name="name" placeholder="Your name">
           <p class="font-semibold mt-3">Email</p>
-          <input class="form-input ml-2 px-3 py-1 rounded-md my-1 w-full" type="text" name="affiliate" placeholder="Your email">
-          <button class="form-button float-end mt-5 px-4 py-2 rounded-2xl text-white font-bold hover:bg-yellow-500 hover:scale-105 duration-200">Subscribe</button>
+          <input class="form-input border-[1px] border-[#171E31] ml-2 px-3 py-1 rounded-md my-1 w-full" type="text" name="affiliate" placeholder="Your email">
+          <button class="form-button bg-[#FDAB0D] float-end mt-5 px-4 py-2 rounded-2xl text-white font-bold hover:bg-yellow-500 hover:scale-105 duration-200">Subscribe</button>
         </form>
       </div>
       <div class="w-1/3 min-w-96 flex flex-col items-center justify-center">
         <div>
           <img src="./img/affiliate.png" alt="affiliate">
         </div>
-        <button class="affiliate-link-button font-semibold text-white flex items-center gap-2 px-4 py-2 rounded-xl mt-7 hover:bg-yellow-500 hover:scale-105 duration-200">
+        <button class="affiliate-link-button bg-[#FDAB0D] font-semibold text-white flex items-center gap-2 px-4 py-2 rounded-xl mt-7 hover:bg-yellow-500 hover:scale-105 duration-200">
           Get Affiliate Link
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
             <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
@@ -605,42 +605,42 @@
 
     <!-- Promotion -->
     <div class="promotion flex flex-col justify-center items-center pt-32 pb-10" id="promotion">
-      <h1 class="promotion-tittle text-4xl font-extrabold w-4/5 text-center">Promotion Tools</h1>
+      <h1 class="promotion-tittle text-[#FDAB0D] text-4xl font-extrabold w-4/5 text-center">Promotion Tools</h1>
       <h3 class="text-center text-white w-4/5 mt-3">We provide you with complete promotion tools, such as email swipes, Bonus page html, auto generate bonus page, promotion banner and more, use this promotion tools to save your valuable time.</h3>
       <div class="flex flex-wrap justify-center items-center gap-20 py-16">
         <div class="w-1/3 min-w-96">
           <img src="./img/Bonus.png" alt="">
         </div>
-        <div class="form-container w-1/3 bg-white p-10 rounded-2xl drop-shadow-2xl">
+        <div class="form-container w-1/3 min-w-[465px] border-[4px] border-[#FDAB0D] bg-gradient-to-b from-gray-50 via-gray-100 to-gray-200 p-10 rounded-2xl drop-shadow-2xl">
           <p class="text-3xl font-bold text-center pb-5">Bonus Page Generator</p>
           <p class="text-gray-500 text-center">This is bonuspage generator, you can automatically generate bonuspage by inserting your name and affiliate link bellow.</p>
           <p class="text-center py-5">After inserting and submit the name and afflink, you will be redirected to bonus page, copy the url and start promoting ReelFire using the url link.</p>
           <form>
             <p class="font-semibold">Insert Your Name</p>
-            <input class="form-input ml-2 px-3 py-1 rounded-md my-1 w-full" type="text" id="nameInput" name="name" placeholder="Your name">
+            <input class="form-input border-[1px] border-[#171E31] ml-2 px-3 py-1 rounded-md my-1 w-full" type="text" id="nameInput" name="name" placeholder="Your name">
             <p class="font-semibold mt-3">Insert Your Full Affiliate Link</p>
-            <input class="form-input ml-2 px-3 py-1 rounded-md my-1 w-full" type="text" id="affiliateInput" name="affiliate" placeholder="Your Full Affiliate Link">
-            <button class="form-button promotion-button float-end mt-5 px-4 py-2 rounded-2xl text-white font-bold hover:bg-yellow-500 hover:scale-105 duration-200">Generate Bonus Page</button>
+            <input class="form-input border-[1px] border-[#171E31] ml-2 px-3 py-1 rounded-md my-1 w-full" type="text" id="affiliateInput" name="affiliate" placeholder="Your Full Affiliate Link">
+            <button class=" bg-[#FDAB0D] promotion-button float-end mt-5 px-4 py-2 rounded-2xl text-white font-bold hover:bg-yellow-500 hover:scale-105 duration-200">Generate Bonus Page</button>
           </form>
         </div>
       </div>
       <div class="text-white font-bold flex flex-wrap justify-center items-center gap-5 px-10">
-        <a class="link-page-promotion flex justify-center items-center gap-2 px-4 py-2 rounded-xl drop-shadow-2xl hover:bg-yellow-500 hover:scale-105 duration-200" href="">Download HTML Bonus Page
+        <a class="link-page-promotion bg-[#FDAB0D] flex justify-center items-center gap-2 px-4 py-2 rounded-xl drop-shadow-2xl hover:bg-yellow-500 hover:scale-105 duration-200" href="">Download HTML Bonus Page
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
             <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
           </svg>
         </a>
-        <a class="link-page-promotion flex justify-center items-center gap-2 px-4 py-2 rounded-xl drop-shadow-2xl hover:bg-yellow-500 hover:scale-105 duration-200" href="">Sales Page Preview
+        <a class="link-page-promotion bg-[#FDAB0D] flex justify-center items-center gap-2 px-4 py-2 rounded-xl drop-shadow-2xl hover:bg-yellow-500 hover:scale-105 duration-200" href="">Sales Page Preview
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
             <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
           </svg>
         </a>
-        <a class="link-page-promotion flex justify-center items-center gap-2 px-4 py-2 rounded-xl drop-shadow-2xl hover:bg-yellow-500 hover:scale-105 duration-200" href="">Email Swipes
+        <a class="link-page-promotion bg-[#FDAB0D] flex justify-center items-center gap-2 px-4 py-2 rounded-xl drop-shadow-2xl hover:bg-yellow-500 hover:scale-105 duration-200" href="">Email Swipes
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
             <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
           </svg>
         </a>
-        <a class="link-page-promotion flex justify-center items-center gap-2 px-4 py-2 rounded-xl drop-shadow-2xl hover:bg-yellow-500 hover:scale-105 duration-200" href="">Bonus Page Preview
+        <a class="link-page-promotion bg-[#FDAB0D] flex justify-center items-center gap-2 px-4 py-2 rounded-xl drop-shadow-2xl hover:bg-yellow-500 hover:scale-105 duration-200" href="">Bonus Page Preview
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
             <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z"/>
           </svg>
@@ -650,11 +650,11 @@
   </section>
 
   <!-- Terms & Conditions -->
-  <section class="terms-condition flex justify-center items-center p-10">
-    <div class="terms-condition-container bg-red-500 rounded-3xl p-10">
+  <section class="terms-condition bg-[url('./img/bg-abstrak1.png')] bg-cover bg-center bg-fixed bg-no-repeat flex justify-center items-center p-10">
+    <div class="terms-condition-container bg-[url('./img/bg-merah2.png')] bg-cover bg-center bg-no-repeat border-[15px] border-[#FDAB0D] rounded-3xl p-10">
       <h1 class="text-white font-extrabold text-3xl text-center mt-5 mb-16">Affiliate Promotion Terms & Conditions</h1>
       <div class="flex flex-wrap justify-center items-center gap-20">
-        <div class="terms-condition-desc">
+        <div class="terms-condition-desc w-[60%] min-w-[400px]">
           <h3 class="text-white font-semibold text-base mb-3">Before joining this affiliate program, please read carefully and agree to the following rules:</h3>
           <div>
             <div class="pl-4">
@@ -690,7 +690,7 @@
           </div>
           <h3 class="text-white font-medium text-base">Last Updated : <span class="font-bold">March 2024</span></h3>
         </div>
-        <div class="terms-condition-img">
+        <div class="terms-condition-img w-[30%] min-w-[380px]">
           <img src="./img/warning.png" alt="warning">
         </div>
       </div>

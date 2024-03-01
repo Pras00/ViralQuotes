@@ -14,11 +14,6 @@
 }
 
 
-
-/*=============== GOOGLE FONTS ===============*/
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"); */
-
-/*=============== VARIABLES CSS ===============*/
 :root {
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
@@ -63,25 +58,21 @@ img {
 }
 
 /*=============== CARD ===============*/
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  /* margin-inline: 1.5rem;
-  padding-block: 5rem; */
-}
 
 .card__container {
-  display: grid;
-  row-gap: 4rem;
-  position: inherit;
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  row-gap: 3.5rem;
 }
 
 .card__article {
   position: relative;
   overflow: hidden;
+  margin: 0 1rem;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.8);
 }
 
 .card__img {
@@ -96,7 +87,7 @@ img {
   box-shadow: 0 8px 24px hsla(0, 0%, 0%, .15);
   border-radius: 1rem;
   position: absolute;
-  /* bottom: -9rem; */
+  bottom: -9rem;
   left: 0;
   right: 0;
   margin-inline: auto;
@@ -107,7 +98,7 @@ img {
 .card__description {
   display: block;
   font-size: var(--small-font-size);
-  margin-bottom: 0.25rem;
+  margin-bottom: .25rem;
 }
 
 .card__title {
@@ -121,11 +112,6 @@ img {
   text-decoration: none;
   font-size: var(--small-font-size);
   font-weight: 500;
-  color: var(--first-color);
-}
-
-.card__button:hover {
-  text-decoration: underline;
 }
 
 /* Naming animations in hover */
@@ -188,10 +174,6 @@ img {
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (max-width: 340px) {
-  .container {
-    margin-inline: 1rem;
-  }
-
   .card__data {
     width: 250px;
     padding: 1rem;
@@ -208,10 +190,6 @@ img {
 
 /* For large devices */
 @media screen and (min-width: 1120px) {
-  .container {
-    height: 100vh;
-  }
-
   .card__container {
     grid-template-columns: repeat(3, 1fr);
   }

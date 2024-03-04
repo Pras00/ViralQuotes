@@ -65,19 +65,3 @@ function smoothScroll(event) {
         behavior: 'smooth'
     });
 }
-
-
-
-// document.querySelector('.promotion-button').addEventListener('click', function(event) {
-//   event.preventDefault();
-//   const nameInput = document.getElementById('nameInput');
-//   const name = nameInput.value;
-//   const affiliateInput = document.getElementById('affiliateInput');
-//   localStorage.setItem('subscriberName', name);
-//   console.log(localStorage.getItem('subscriberName'));
-//   window.location.href = 'http://127.0.0.1:5501/Bonus.html';
-  
-//   nameInput.value = '';
-//   affiliateInput.value = '';
-// });
-

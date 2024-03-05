@@ -35,7 +35,7 @@ ob_start();
             <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
           </svg>
         </a>
-        <a class="smooth-scroll affiliate-link flex items-center gap-1" href="#affiliate">
+        <a class="smooth-scrol flex items-center gap-1" href="#affiliate">
           Affiliate Link
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
             <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
@@ -61,7 +61,7 @@ ob_start();
           <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
         </svg>
       </a>
-      <a class="smooth-scroll affiliate-link flex items-center gap-1" href="#affiliate">
+      <a class="smooth-scroll flex items-center gap-1" href="#affiliate">
         Affiliate Link
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
           <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
@@ -485,7 +485,7 @@ ob_start();
     <!-- 4:4 Card -->
     <div class="flex flex-col justify-center items-center">
       <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mb-7 2xl:scale-100 xl:scale-100 lg:scale-100 md:scale-95 sm:scale-95 min-[320px]:scale-90">
-        <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">4:3 Size Dimension</h3>
+        <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">4:4 Size Dimension</h3>
       </div>
       <div class="flex flex-wrap justify-center items-center px-10 gap-7">
         <div class="flex flex-col justify-center items-center w-[72vw] bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
@@ -990,7 +990,7 @@ ob_start();
             <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
           </svg>
         </a>
-        <a class="link-page-promotion bg-[#FDAB0D] flex justify-center items-center gap-2 px-4 py-2 rounded-xl drop-shadow-2xl hover:bg-yellow-500 hover:scale-105 duration-200" href="">Sales Page Preview
+        <a class="link-page-promotion bg-[#FDAB0D] flex justify-center items-center gap-2 px-4 py-2 rounded-xl drop-shadow-2xl hover:bg-yellow-500 hover:scale-105 duration-200" href="../Sales Page/sales_page.html">Sales Page Preview
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
             <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
           </svg>
@@ -1000,7 +1000,7 @@ ob_start();
             <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
           </svg>
         </a>
-        <a class="link-page-promotion bg-[#FDAB0D] flex justify-center items-center gap-2 px-4 py-2 rounded-xl drop-shadow-2xl hover:bg-yellow-500 hover:scale-105 duration-200" href="">Bonus Page Preview
+        <a class="link-page-promotion bg-[#FDAB0D] flex justify-center items-center gap-2 px-4 py-2 rounded-xl drop-shadow-2xl hover:bg-yellow-500 hover:scale-105 duration-200" href="../Bonus Page/Bonus.php">Bonus Page Preview
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-send" viewBox="0 0 16 16">
             <path d="M15.854.146a.5.5 0 0 1 .11.54l-5.819 14.547a.75.75 0 0 1-1.329.124l-3.178-4.995L.643 7.184a.75.75 0 0 1 .124-1.33L15.314.037a.5.5 0 0 1 .54.11ZM6.636 10.07l2.761 4.338L14.13 2.576zm6.787-8.201L1.591 6.602l4.339 2.76z" />
           </svg>

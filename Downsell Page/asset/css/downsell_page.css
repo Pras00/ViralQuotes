@@ -101,6 +101,16 @@ body {
     padding-bottom: 100px;
 }
 
+.custom-text-section6 {
+    font-size: 25px;
+    background-color: #E62A2A;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    border-radius: 40px;
+}
+
 .card-custom-section6 {
     background-image: url(../image/liquid-cheese.png);
     background-size: cover;
@@ -133,18 +143,18 @@ body {
     width: 180px;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px;
-    border-radius: 12px;
+    padding: 10px;
+    border-radius: 35px;
     font-size: 20px;
 }
 
 .text-size {
     background-color: #E62A2A;
-    padding: 8px;
+    padding: 12px;
     width: 250px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 14px;
+    border-radius: 35px;
 }
 
 .youtube-url {

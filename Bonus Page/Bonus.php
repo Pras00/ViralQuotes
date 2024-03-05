@@ -29,19 +29,19 @@
 
       ?>
 
-      <h3 class="text-white text-4xl font-semibold">Bonuses For <span id="subscriberName" class="underline font-bold"><?php echo isset($_SESSION["name"]) ? $_SESSION["name"] : "Subscriber"; ?></span></h3>
-      <h1 class="text-white text-5xl font-extrabold py-5">Elevate Your Content with <span class="text-[#FDAB0D]">QuotesBuddy 2.0</span>! Craft Trending Feeds and Reels Easily With Many Themes of Quotes.</h1>
-      <p class="text-[#FDAB0D] text-xl font-semibold">Dominate Instagram Reel, TikTok, YouTube Shorts and more...!</p>
+      <h3 class="text-white 2xl:text-4xl xl:text-4xl lg:text-4xl md:text-3xl sm:text-2xl min-[320px]:text-2xl font-semibold">Bonuses For <span id="subscriberName" class="underline font-bold"><?php echo isset($_SESSION["name"]) ? $_SESSION["name"] : "Subscriber"; ?></span></h3>
+      <h1 class="text-white 2xl:text-5xl xl:text-5xl lg:text-5xl md:text-4xl sm:text-3xl min-[320px]:text-2xl font-extrabold py-5">Elevate Your Content with <span class="text-[#FDAB0D]">QuotesBuddy 2.0</span>! Craft Trending Feeds and Reels Easily With Many Themes of Quotes.</h1>
+      <p class="text-[#FDAB0D] 2xl:text-xl xl:text-xl lg:text-xl md:text-lg sm:text-base min-[320px]:text-sm font-semibold">Dominate Instagram Reel, TikTok, YouTube Shorts and more...!</p>
     </div>
-    <div class="flex justify-center items-center mt-10">
-      <div class="text-white w-1/2 drop-shadow-[10px_10px_15px_rgba(0,0,0,0.8)]">
+    <div class="flex justify-center items-center my-20">
+      <div class="text-white drop-shadow-[10px_10px_15px_rgba(0,0,0,0.8)] 2xl:w-[60%] xl:w-[60%] lg:w-[60%] md:w-[70%] sm:w-[70%] min-[320px]:w-[70%]">
         <img src="./img/MOCKUP.png" alt="Mockup">
       </div>
       <div>
 
       </div>
     </div>
-  </section>
+  </section> 
 
     <!-- Module -->
 
@@ -53,21 +53,25 @@
         <h1 class="module-tittle text-center font-extrabold text-4xl text-white">Friendship Quotes</h1>
       </div>
       <div class="module-desc-container flex flex-col justify-center items-start gap-2 pl-7 py-10 text-left rounded-[35px] bg-white 2xl:w-[60%] xl:w-[60%] lg:w-[60%] md:w-full sm:w-full min-[320px]:w-full">
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-pen-to-square"></i>
-          <p class="font-medium">Fully Editable <span class="font-bold">CANVA Templates</span></p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium">Fully Editable <span class="font-bold">CANVA Templates</span></p>
         </div>
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-chart-simple"></i>
-          <p class="font-medium"><span class="font-bold">Static & Animated</span> Quote Design (Ready To Upload)</p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">Static & Animated</span> Quote Design (Ready To Upload)</p>
         </div>
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-paste"></i>
-          <p class="font-medium"><span class="font-bold">4:3 Size Dimension</span>​ (IG Feed, Facebook, Twitter, Linkedin)</p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">4:4 Size Dimension</span>​ (IG Feed, Facebook, Twitter, Linkedin)</p>
         </div>
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-copy"></i>
-          <p class="font-medium"><span class="font-bold">9:16 Size Dimension</span>​ (Reels, Story, TikTok, YT Shorts, etc)</p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">9:16 Size Dimension</span>​ (Reels, Story, TikTok, YT Shorts, etc)</p>
+        </div>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">25 Various</span> Design​</p>
         </div>
       </div>
     </div>
@@ -80,43 +84,43 @@
       <h3 class="animation-tittle1 font-bold mt-12 mb-2 text-[#171E31] 2xl:text-3xl xl:text-3xl lg:text-3xl md:text-2xl sm:text-xl min-[320px]:text-xl">All Those Templates Also Available In</h3>
       <h4 class="animation-tittle2 font-bold mb-4 text-[#FDAB0D] 2xl:text-3xl xl:text-3xl lg:text-3xl md:text-2xl sm:text-xl min-[320px]:text-xl">Static Version</h4>
     </div>
-    <!-- 4:3 Card -->
+    <!-- 4:4 Card -->
     <div class="flex flex-col justify-center items-center">
-      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mb-7">
-        <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">4:3 Size Dimension</h3>
+      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mb-7 2xl:scale-100 xl:scale-100 lg:scale-100 md:scale-95 sm:scale-95 min-[320px]:scale-90">
+        <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">4:4 Size Dimension</h3>
       </div>
       <div class="flex flex-wrap justify-center items-center px-10 gap-7">
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 1</h3>
-          <div class="">
-            <img src="./img/M1_square1.png" alt="square">
+        <div class="flex flex-col justify-center items-center w-[72vw] bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
+          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl mt-5 mb-7 px-10 py-1 rounded-2xl">Preview</h3>
+          <div class="flex flex-wrap justify-center items-center gap-4">
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M1_square1.png" alt="square">
+            </div>
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M1_square2.png" alt="square">
+            </div>
           </div>
-        </div>
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 2</h3>
-          <div class="">
-            <img src="./img/M1_square2.png" alt="square">
-          </div>
+          <p class="text-center 2xl:text-xl xl:text-xl lg:text-xl md-text-lg sm:text-lg min-[320px]:text-base mt-5 font-semibold text-[#171E31]">There Are More Designs Waiting for You!</p>
         </div>
       </div>
     </div>
     <!-- 9:16 Card -->
     <div class="flex flex-col justify-center items-center">
-      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mt-12 mb-7">
+      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mt-12 mb-7 2xl:scale-100 xl:scale-100 lg:scale-100 md:scale-95 sm:scale-95 min-[320px]:scale-90">
         <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">9:16 Size Dimension</h3>
       </div>
       <div class="flex flex-wrap justify-center items-center px-10 gap-7">
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 1</h3>
-          <div class="">
-            <img src="./img/M1_potrait1.png" alt="potrait">
+        <div class="flex flex-col justify-center items-center w-[72vw] bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
+          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl mt-5 mb-7 px-10 py-1 rounded-2xl">Preview</h3>
+          <div class="flex flex-wrap justify-center items-center gap-4">
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M1_potrait1.png" alt="square">
+            </div>
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M1_potrait2.png" alt="square">
+            </div>
           </div>
-        </div>
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 2</h3>
-          <div class="">
-            <img src="./img/M1_potrait2.png" alt="potrait">
-          </div>
+          <p class="text-center 2xl:text-xl xl:text-xl lg:text-xl md-text-lg sm:text-lg min-[320px]:text-base mt-5 font-semibold text-[#171E31]">There Are More Designs Waiting for You!</p>
         </div>
       </div>
     </div>
@@ -130,21 +134,25 @@
         <h1 class="module-tittle text-center font-extrabold text-4xl text-white">Success Quotes</h1>
       </div>
       <div class="module-desc-container flex flex-col justify-center items-start gap-2 pl-7 py-10 text-left rounded-[35px] bg-white 2xl:w-[60%] xl:w-[60%] lg:w-[60%] md:w-full sm:w-full min-[320px]:w-full">
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-pen-to-square"></i>
-          <p class="font-medium">Fully Editable <span class="font-bold">CANVA Templates</span></p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium">Fully Editable <span class="font-bold">CANVA Templates</span></p>
         </div>
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-chart-simple"></i>
-          <p class="font-medium"><span class="font-bold">Static & Animated</span> Quote Design (Ready To Upload)</p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">Static & Animated</span> Quote Design (Ready To Upload)</p>
         </div>
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-paste"></i>
-          <p class="font-medium"><span class="font-bold">4:3 Size Dimension</span>​ (IG Feed, Facebook, Twitter, Linkedin)</p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">4:4 Size Dimension</span>​ (IG Feed, Facebook, Twitter, Linkedin)</p>
         </div>
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-copy"></i>
-          <p class="font-medium"><span class="font-bold">9:16 Size Dimension</span>​ (Reels, Story, TikTok, YT Shorts, etc)</p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">9:16 Size Dimension</span>​ (Reels, Story, TikTok, YT Shorts, etc)</p>
+        </div>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">25 Various</span> Design​</p>
         </div>
       </div>
     </div>
@@ -159,41 +167,41 @@
     </div>
     <!-- 4:3 Card -->
     <div class="flex flex-col justify-center items-center">
-      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mb-7">
-        <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">4:3 Size Dimension</h3>
+      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mb-7 2xl:scale-100 xl:scale-100 lg:scale-100 md:scale-95 sm:scale-95 min-[320px]:scale-90">
+        <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">4:4 Size Dimension</h3>
       </div>
       <div class="flex flex-wrap justify-center items-center px-10 gap-7">
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 1</h3>
-          <div class="">
-            <img src="./img/M2_square1.png" alt="square">
+        <div class="flex flex-col justify-center items-center w-[72vw] bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
+          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl mt-5 mb-7 px-10 py-1 rounded-2xl">Preview</h3>
+          <div class="flex flex-wrap justify-center items-center gap-4">
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M2_square1.png" alt="square">
+            </div>
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M2_square2.png" alt="square">
+            </div>
           </div>
-        </div>
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 2</h3>
-          <div class="">
-            <img src="./img/M2_square2.png" alt="square">
-          </div>
+          <p class="text-center 2xl:text-xl xl:text-xl lg:text-xl md-text-lg sm:text-lg min-[320px]:text-base mt-5 font-semibold text-[#171E31]">There Are More Designs Waiting for You!</p>
         </div>
       </div>
     </div>
     <!-- 9:16 Card -->
     <div class="flex flex-col justify-center items-center">
-      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mt-12 mb-7">
+      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mt-12 mb-7 2xl:scale-100 xl:scale-100 lg:scale-100 md:scale-95 sm:scale-95 min-[320px]:scale-90">
         <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">9:16 Size Dimension</h3>
       </div>
       <div class="flex flex-wrap justify-center items-center px-10 gap-7">
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 1</h3>
-          <div class="">
-            <img src="./img/M2_potrait1.png" alt="potrait">
+        <div class="flex flex-col justify-center items-center w-[72vw] bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
+          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl mt-5 mb-7 px-10 py-1 rounded-2xl">Preview</h3>
+          <div class="flex flex-wrap justify-center items-center gap-4">
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M2_potrait1.png" alt="square">
+            </div>
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M2_potrait2.png" alt="square">
+            </div>
           </div>
-        </div>
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 2</h3>
-          <div class="">
-            <img src="./img/M2_potrait2.png" alt="potrait">
-          </div>
+          <p class="text-center 2xl:text-xl xl:text-xl lg:text-xl md-text-lg sm:text-lg min-[320px]:text-base mt-5 font-semibold text-[#171E31]">There Are More Designs Waiting for You!</p>
         </div>
       </div>
     </div>
@@ -207,21 +215,25 @@
         <h1 class="module-tittle text-center font-extrabold text-4xl text-white">Life Quotes</h1>
       </div>
       <div class="module-desc-container flex flex-col justify-center items-start gap-2 pl-7 py-10 text-left rounded-[35px] bg-white 2xl:w-[60%] xl:w-[60%] lg:w-[60%] md:w-full sm:w-full min-[320px]:w-full">
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-pen-to-square"></i>
-          <p class="font-medium">Fully Editable <span class="font-bold">CANVA Templates</span></p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium">Fully Editable <span class="font-bold">CANVA Templates</span></p>
         </div>
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-chart-simple"></i>
-          <p class="font-medium"><span class="font-bold">Static & Animated</span> Quote Design (Ready To Upload)</p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">Static & Animated</span> Quote Design (Ready To Upload)</p>
         </div>
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-paste"></i>
-          <p class="font-medium"><span class="font-bold">4:3 Size Dimension</span>​ (IG Feed, Facebook, Twitter, Linkedin)</p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">4:4 Size Dimension</span>​ (IG Feed, Facebook, Twitter, Linkedin)</p>
         </div>
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-copy"></i>
-          <p class="font-medium"><span class="font-bold">9:16 Size Dimension</span>​ (Reels, Story, TikTok, YT Shorts, etc)</p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">9:16 Size Dimension</span>​ (Reels, Story, TikTok, YT Shorts, etc)</p>
+        </div>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">25 Various</span> Design​</p>
         </div>
       </div>
     </div>
@@ -234,43 +246,43 @@
       <h3 class="animation-tittle1 font-bold mt-12 mb-2 text-[#171E31] 2xl:text-3xl xl:text-3xl lg:text-3xl md:text-2xl sm:text-xl min-[320px]:text-xl">All Those Templates Also Available In</h3>
       <h4 class="animation-tittle2 font-bold mb-4 text-[#FDAB0D] 2xl:text-3xl xl:text-3xl lg:text-3xl md:text-2xl sm:text-xl min-[320px]:text-xl">Static Version</h4>
     </div>
-    <!-- 4:3 Card -->
+    <!-- 4:4 Card -->
     <div class="flex flex-col justify-center items-center">
-      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mb-7">
-        <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">4:3 Size Dimension</h3>
+      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mb-7 2xl:scale-100 xl:scale-100 lg:scale-100 md:scale-95 sm:scale-95 min-[320px]:scale-90">
+        <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">4:4 Size Dimension</h3>
       </div>
       <div class="flex flex-wrap justify-center items-center px-10 gap-7">
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 1</h3>
-          <div class="">
-            <img src="./img/M3_square1.png" alt="square">
+        <div class="flex flex-col justify-center items-center w-[72vw] bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
+          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl mt-5 mb-7 px-10 py-1 rounded-2xl">Preview</h3>
+          <div class="flex flex-wrap justify-center items-center gap-4">
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M3_square1.png" alt="square">
+            </div>
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M3_square2.png" alt="square">
+            </div>
           </div>
-        </div>
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 2</h3>
-          <div class="">
-            <img src="./img/M3_square2.png" alt="square">
-          </div>
+          <p class="text-center 2xl:text-xl xl:text-xl lg:text-xl md-text-lg sm:text-lg min-[320px]:text-base mt-5 font-semibold text-[#171E31]">There Are More Designs Waiting for You!</p>
         </div>
       </div>
     </div>
     <!-- 9:16 Card -->
     <div class="flex flex-col justify-center items-center">
-      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mt-12 mb-7">
+      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mt-12 mb-7 2xl:scale-100 xl:scale-100 lg:scale-100 md:scale-95 sm:scale-95 min-[320px]:scale-90">
         <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">9:16 Size Dimension</h3>
       </div>
       <div class="flex flex-wrap justify-center items-center px-10 gap-7">
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 1</h3>
-          <div class="">
-            <img src="./img/M3_potrait1.png" alt="potrait">
+        <div class="flex flex-col justify-center items-center w-[72vw] bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
+          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl mt-5 mb-7 px-10 py-1 rounded-2xl">Preview</h3>
+          <div class="flex flex-wrap justify-center items-center gap-4">
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M3_potrait1.png" alt="square">
+            </div>
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M3_potrait2.png" alt="square">
+            </div>
           </div>
-        </div>
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 2</h3>
-          <div class="">
-            <img src="./img/M3_potrait2.png" alt="potrait">
-          </div>
+          <p class="text-center 2xl:text-xl xl:text-xl lg:text-xl md-text-lg sm:text-lg min-[320px]:text-base mt-5 font-semibold text-[#171E31]">There Are More Designs Waiting for You!</p>
         </div>
       </div>
     </div>
@@ -284,21 +296,25 @@
         <h1 class="module-tittle text-center font-extrabold text-4xl text-white">Happiness Quotes</h1>
       </div>
       <div class="module-desc-container flex flex-col justify-center items-start gap-2 pl-7 py-10 text-left rounded-[35px] bg-white 2xl:w-[60%] xl:w-[60%] lg:w-[60%] md:w-full sm:w-full min-[320px]:w-full">
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-pen-to-square"></i>
-          <p class="font-medium">Fully Editable <span class="font-bold">CANVA Templates</span></p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium">Fully Editable <span class="font-bold">CANVA Templates</span></p>
         </div>
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-chart-simple"></i>
-          <p class="font-medium"><span class="font-bold">Static & Animated</span> Quote Design (Ready To Upload)</p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">Static & Animated</span> Quote Design (Ready To Upload)</p>
         </div>
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-paste"></i>
-          <p class="font-medium"><span class="font-bold">4:3 Size Dimension</span>​ (IG Feed, Facebook, Twitter, Linkedin)</p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">4:4 Size Dimension</span>​ (IG Feed, Facebook, Twitter, Linkedin)</p>
         </div>
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-copy"></i>
-          <p class="font-medium"><span class="font-bold">9:16 Size Dimension</span>​ (Reels, Story, TikTok, YT Shorts, etc)</p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">9:16 Size Dimension</span>​ (Reels, Story, TikTok, YT Shorts, etc)</p>
+        </div>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">25 Various</span> Design​</p>
         </div>
       </div>
     </div>
@@ -311,48 +327,48 @@
       <h3 class="animation-tittle1 font-bold mt-12 mb-2 text-[#171E31] 2xl:text-3xl xl:text-3xl lg:text-3xl md:text-2xl sm:text-xl min-[320px]:text-xl">All Those Templates Also Available In</h3>
       <h4 class="animation-tittle2 font-bold mb-4 text-[#FDAB0D] 2xl:text-3xl xl:text-3xl lg:text-3xl md:text-2xl sm:text-xl min-[320px]:text-xl">Static Version</h4>
     </div>
-    <!-- 4:3 Card -->
+    <!-- 4:4 Card -->
     <div class="flex flex-col justify-center items-center">
-      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mb-7">
-        <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">4:3 Size Dimension</h3>
+      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mb-7 2xl:scale-100 xl:scale-100 lg:scale-100 md:scale-95 sm:scale-95 min-[320px]:scale-90">
+        <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">4:4 Size Dimension</h3>
       </div>
       <div class="flex flex-wrap justify-center items-center px-10 gap-7">
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 1</h3>
-          <div class="">
-            <img src="./img/M4_square1.png" alt="square">
+        <div class="flex flex-col justify-center items-center w-[72vw] bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
+          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl mt-5 mb-7 px-10 py-1 rounded-2xl">Preview</h3>
+          <div class="flex flex-wrap justify-center items-center gap-4">
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M4_square1.png" alt="square">
+            </div>
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M4_square2.png" alt="square">
+            </div>
           </div>
-        </div>
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 2</h3>
-          <div class="">
-            <img src="./img/M4_square2.png" alt="square">
-          </div>
+          <p class="text-center 2xl:text-xl xl:text-xl lg:text-xl md-text-lg sm:text-lg min-[320px]:text-base mt-5 font-semibold text-[#171E31]">There Are More Designs Waiting for You!</p>
         </div>
       </div>
     </div>
     <!-- 9:16 Card -->
     <div class="flex flex-col justify-center items-center">
-      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mt-12 mb-7">
+      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mt-12 mb-7 2xl:scale-100 xl:scale-100 lg:scale-100 md:scale-95 sm:scale-95 min-[320px]:scale-90">
         <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">9:16 Size Dimension</h3>
       </div>
       <div class="flex flex-wrap justify-center items-center px-10 gap-7">
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 1</h3>
-          <div class="">
-            <img src="./img/M4_potrait1.png" alt="potrait">
+        <div class="flex flex-col justify-center items-center w-[72vw] bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
+          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl mt-5 mb-7 px-10 py-1 rounded-2xl">Preview</h3>
+          <div class="flex flex-wrap justify-center items-center gap-4">
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M4_potrait1.png" alt="square">
+            </div>
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M4_potrait2.png" alt="square">
+            </div>
           </div>
-        </div>
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 2</h3>
-          <div class="">
-            <img src="./img/M4_potrait2.png" alt="potrait">
-          </div>
+          <p class="text-center 2xl:text-xl xl:text-xl lg:text-xl md-text-lg sm:text-lg min-[320px]:text-base mt-5 font-semibold text-[#171E31]">There Are More Designs Waiting for You!</p>
         </div>
       </div>
     </div>
   </section>
- 
+
   <!-- Module 5 -->
   <section class="module flex flex-col justify-center items-center py-20 bg-[url('./img/bg-abstrak.png')] bg-cover bg-no-repeat bg-center bg-fixed">
     <!-- Module Header -->
@@ -361,21 +377,25 @@
         <h1 class="module-tittle text-center font-extrabold text-4xl text-white">Struggle Quotes</h1>
       </div>
       <div class="module-desc-container flex flex-col justify-center items-start gap-2 pl-7 py-10 text-left rounded-[35px] bg-white 2xl:w-[60%] xl:w-[60%] lg:w-[60%] md:w-full sm:w-full min-[320px]:w-full">
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-pen-to-square"></i>
-          <p class="font-medium">Fully Editable <span class="font-bold">CANVA Templates</span></p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium">Fully Editable <span class="font-bold">CANVA Templates</span></p>
         </div>
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-chart-simple"></i>
-          <p class="font-medium"><span class="font-bold">Static & Animated</span> Quote Design (Ready To Upload)</p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">Static & Animated</span> Quote Design (Ready To Upload)</p>
         </div>
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-paste"></i>
-          <p class="font-medium"><span class="font-bold">4:3 Size Dimension</span>​ (IG Feed, Facebook, Twitter, Linkedin)</p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">4:4 Size Dimension</span>​ (IG Feed, Facebook, Twitter, Linkedin)</p>
         </div>
-        <div class="flex gap-2 items-center">
-          <i class="module-desc fa-solid fa-copy"></i>
-          <p class="font-medium"><span class="font-bold">9:16 Size Dimension</span>​ (Reels, Story, TikTok, YT Shorts, etc)</p>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">9:16 Size Dimension</span>​ (Reels, Story, TikTok, YT Shorts, etc)</p>
+        </div>
+        <div class="flex gap-3 items-center">
+          <i class="module-desc fas fa-check-circle text-green-500"></i>
+          <p class="2xl:text-base xl:text-base lg:text-base md:text-sm sm:text-sm min-[320px]:text-sm font-medium"><span class="font-bold">25 Various</span> Design​</p>
         </div>
       </div>
     </div>
@@ -388,43 +408,43 @@
       <h3 class="animation-tittle1 font-bold mt-12 mb-2 text-[#171E31] 2xl:text-3xl xl:text-3xl lg:text-3xl md:text-2xl sm:text-xl min-[320px]:text-xl">All Those Templates Also Available In</h3>
       <h4 class="animation-tittle2 font-bold mb-4 text-[#FDAB0D] 2xl:text-3xl xl:text-3xl lg:text-3xl md:text-2xl sm:text-xl min-[320px]:text-xl">Static Version</h4>
     </div>
-    <!-- 4:3 Card -->
+    <!-- 4:4 Card -->
     <div class="flex flex-col justify-center items-center">
-      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mb-7">
-        <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">4:3 Size Dimension</h3>
+      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mb-7 2xl:scale-100 xl:scale-100 lg:scale-100 md:scale-95 sm:scale-95 min-[320px]:scale-90">
+        <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">4:4 Size Dimension</h3>
       </div>
       <div class="flex flex-wrap justify-center items-center px-10 gap-7">
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 1</h3>
-          <div class="">
-            <img src="./img/M5_square1.png" alt="square">
+        <div class="flex flex-col justify-center items-center w-[72vw] bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
+          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl mt-5 mb-7 px-10 py-1 rounded-2xl">Preview</h3>
+          <div class="flex flex-wrap justify-center items-center gap-4">
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M5_square1.png" alt="square">
+            </div>
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M5_square2.png" alt="square">
+            </div>
           </div>
-        </div>
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 2</h3>
-          <div class="">
-            <img src="./img/M5_square2.png" alt="square">
-          </div>
+          <p class="text-center 2xl:text-xl xl:text-xl lg:text-xl md-text-lg sm:text-lg min-[320px]:text-base mt-5 font-semibold text-[#171E31]">There Are More Designs Waiting for You!</p>
         </div>
       </div>
     </div>
     <!-- 9:16 Card -->
     <div class="flex flex-col justify-center items-center">
-      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mt-12 mb-7">
+      <div class="module-size-container flex justify-center w-[280px] py-2 rounded-[30px] mt-12 mb-7 2xl:scale-100 xl:scale-100 lg:scale-100 md:scale-95 sm:scale-95 min-[320px]:scale-90">
         <h3 class="font-bold text-xl text-[#171E31] text-center w-[280px] py-2 border-[#171E31] border-[3px] rounded-[35px] border-dashed">9:16 Size Dimension</h3>
       </div>
       <div class="flex flex-wrap justify-center items-center px-10 gap-7">
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 1</h3>
-          <div class="">
-            <img src="./img/M5_potrait1.png" alt="potrait">
+        <div class="flex flex-col justify-center items-center w-[72vw] bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
+          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl mt-5 mb-7 px-10 py-1 rounded-2xl">Preview</h3>
+          <div class="flex flex-wrap justify-center items-center gap-4">
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M5_potrait1.png" alt="square">
+            </div>
+            <div>
+              <img class="2xl:w-[32rem] xl:w-[28rem] min-w-72" src="./img/M5_potrait2.png" alt="square">
+            </div>
           </div>
-        </div>
-        <div class="flex flex-col justify-center items-center w-[36rem] min-w-20 bg-white p-5 rounded-[1.5rem] drop-shadow-[4px_5px_10px_rgba(0,0,0,0.4)]">
-          <h3 class="bg-[#FDAB0D] text-white w-fit font-extrabold text-xl my-5 px-10 py-1 rounded-2xl">Preview 2</h3>
-          <div class="">
-            <img src="./img/M5_potrait2.png" alt="potrait">
-          </div>
+          <p class="text-center 2xl:text-xl xl:text-xl lg:text-xl md-text-lg sm:text-lg min-[320px]:text-base mt-5 font-semibold text-[#171E31]">There Are More Designs Waiting for You!</p>
         </div>
       </div>
     </div>
@@ -432,8 +452,8 @@
 
   <!-- Bonus -->
   <section class="bonus bg-[url('./img/bg-dark2.png')] bg-cover bg-center bg-fixed flex flex-col justify-center items-center py-16">
-    <div class="mb-5">
-      <h1 class="text-[#FDAB0D] text-4xl font-extrabold border-[#FDAB0D] border-[5px] rounded-3xl py-2 px-10 mb-3">Bonuses For QuotesBuddy 2.0</h1>
+    <div class="mb-5 2xl:scale-100 xl:scale-100 lg:scale-100 md:scale-95 sm:scale-90 min-[320px]:scale-[0.85]">
+      <h1 class="text-[#FDAB0D] text-center text-4xl font-extrabold border-[#FDAB0D] border-[5px] rounded-3xl py-2 px-10 mb-3">Bonuses For QuotesBuddy 2.0</h1>
     </div>
     <div class="flex flex-col justify-center items-center">
       <p class="text-white text-lg font-semibold mb-5">Grab <span class="font-bold underline">QuotesBuddy 2.0</span> And Your <span class="font-bold underline">Bonuses</span> NOW!</p>

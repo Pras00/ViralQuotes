@@ -131,7 +131,7 @@ ob_start();
   <section class="about3 text-center flex flex-col justify-center items-center pb-20 bg-[url('./img/bg-dark2.png')] bg-cover bg-center bg-fixed">
     <h1 class="2xl:text-5xl xl:text-5xl lg:text-4xl md:text-3xl sm:text-2xl min-[320px]:text-2xl font-extrabold pt-20 pb-10 text-[#FDAB0D]">About Quotes Buddy 2.0</h1>
     <p class="text-white w-4/5 mb-10">Unleash Your Creativity with our extensive collection of beautifully designed templates, tailored to suit every mood and occasion. Whether you're seeking motivation, inspiration, or just want to add a touch of elegance to your social media feed, Quotes Buddy 2.0 has you covered.With easy-to-use features and a wide range of themes to choose from, creating captivating quote graphics has never been simpler. Elevate your content game and leave a lasting impression on your audience with Quotes Buddy 2.0. Say goodbye to dull and uninspiring posts – ignite engagement and spark conversation with eye-catching visuals that reflect your unique style. Try Quotes Buddy 2.0 today and let your creativity shine!</p>
-    <div class="image-viralquotes w-1/2 mb-10 drop-shadow-[20px_10px_15px_rgba(0,0,0,0.8)]">
+    <div class="image-viralquotes 2xl:w-[60%] xl:w-[60%] lg:w-[60%] md:w-[70%] sm:w-[70%] min-[320px]:w-[70%] mb-10 drop-shadow-[20px_10px_15px_rgba(0,0,0,0.8)]">
       <img src="./img/BoxMockup3.png" alt="ViralQuotes">
     </div>
     <div class="produk flex flex-wrap justify-center items-center gap-20 mt-10">

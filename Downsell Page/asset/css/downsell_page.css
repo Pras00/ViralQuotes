@@ -226,20 +226,96 @@ body {
 
 
 @media (max-width: 768px) {
-    .desc {
-        padding-left: 0 !important;
-        padding-right: 0 !important;
-    }
-
-    .desc-text {
+    
+    .text-section1 {
         font-size: 18px !important;
         padding-right: 30px;
         padding-left: 30px;
+    }
+
+    .text-section2 {
+        font-size: 25px !important;
+    }
+
+    .text-section2-1 {
+        font-size: 20px !important;
+    }
+
+    .text-section2-2 {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+    }
+
+    .title-column-1 {
+        font-size: 20px;
+        padding: 15px 30px !important;
+    }
+
+    .title-column-2 {
+        font-size: 18px;
+        padding: 15px 35px !important;
+    }
+
+    .desc {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .desc-text {
+        font-size: 16px !important;
+        padding-right: 20px !important;
+        padding-left: 20px;
+    }
+
+    .custom-text-section6 {
+        font-size: 16px !important;
+        padding: 15px !important;
+    }
+
+    .youtube-url {
+        height: 200px !important;
     }
 
     .subcard-custom-section6 {
         margin-left: 10px;
         margin-top: 20px;
         font-size: 15px;
+    }
+
+    .custom-col {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+
+    .text-section7 {
+        font-size: 20px !important;
+    }
+
+    .text-section7-1 {
+        font-size: 15px !important;
+    }
+
+    .text-section7-2 {
+        font-size: 18px !important;
+    }
+
+    .text-section7-3 {
+        font-size: 15px !important;
+    }
+
+    .text-section8-1 {
+        font-size: 12px !important;
+    }
+
+    .text-section8-2 {
+        font-size: 12px !important;
+    }
+
+    .text-section8-1 {
+        font-size: 12px !important;
+    }
+
+    .text-section8-2 {
+        font-size: 12px !important;
     }
 }
